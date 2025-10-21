@@ -23,9 +23,10 @@ import XAxisScrollPlugin from 'x-axis-scroll-plugin';
 
 ### Via CDN
 
+**jsDelivr (Recommended)**
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/KnifeLemon/x-axis-scroll-plugin@main/XAxisScrolling.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/KnifeLemon/XAxisScrollPlugin-for-smooth-scrollbar@v1.0.0/XAxisScrolling.js"></script>
 ```
 
 ### Manual Download
