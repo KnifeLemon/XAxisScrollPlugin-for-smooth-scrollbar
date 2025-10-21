@@ -10,23 +10,20 @@ Horizontal scrolling plugin for smooth-scrollbar using modifier keys + mouse whe
 
 ## Installation
 
-### Via NPM
+### CDN
 
-```bash
-npm install x-axis-scroll-plugin
-```
-
-```javascript
-import Scrollbar from 'smooth-scrollbar';
-import XAxisScrollPlugin from 'x-axis-scroll-plugin';
-```
-
-### Via CDN
-
-**jsDelivr (Recommended)**
+**Recommended (jsDelivr with version tag):**
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/KnifeLemon/XAxisScrollPlugin-for-smooth-scrollbar@v1.0.0/XAxisScrolling.js"></script>
+```
+
+**Alternative CDNs:**
+```html
+<!-- GitHub Raw -->
+<script src="https://raw.githubusercontent.com/KnifeLemon/XAxisScrollPlugin-for-smooth-scrollbar/v1.0.0/XAxisScrolling.js"></script>
+
+<!-- Statically -->
+<script src="https://cdn.statically.io/gh/KnifeLemon/XAxisScrollPlugin-for-smooth-scrollbar/v1.0.0/XAxisScrolling.js"></script>
 ```
 
 ### Manual Download
