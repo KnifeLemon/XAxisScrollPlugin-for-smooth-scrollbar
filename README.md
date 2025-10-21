@@ -10,6 +10,8 @@ Horizontal scrolling plugin for smooth-scrollbar using modifier keys + mouse whe
 
 ## Installation
 
+> **Required**: This plugin requires [idiotWu/smooth-scrollbar](https://github.com/idiotWu/smooth-scrollbar) to be loaded first.
+
 ### CDN
 
 **Recommended (jsDelivr with version tag):**
