@@ -1,0 +1,35 @@
+{
+  "name": "x-axis-scroll-plugin",
+  "version": "1.0.0",
+  "description": "X-Axis scrolling plugin for smooth-scrollbar with customizable modifier key + mouse wheel support",
+  "main": "XAxisScrolling.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnifeLemon/x-axis-scroll-plugin.git"
+  },
+  "keywords": [
+    "smooth-scrollbar",
+    "horizontal-scroll",
+    "x-axis",
+    "plugin",
+    "mouse-wheel",
+    "modifier-key"
+  ],
+  "author": "KnifeLemon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KnifeLemon/x-axis-scroll-plugin/issues"
+  },
+  "homepage": "https://github.com/KnifeLemon/x-axis-scroll-plugin#readme",
+  "peerDependencies": {
+    "smooth-scrollbar": "^8.8.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "XAxisScrolling.js",
+    "README.md"
+  ]
+}

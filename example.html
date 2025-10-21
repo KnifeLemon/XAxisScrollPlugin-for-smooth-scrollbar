@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Axis Scroll Plugin Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        .container pre {
+            width: 100%;
+            padding: 10px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" data-scrollbar>
+        <pre>
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+Example Content for X-Axis Scrolling Plugin
+------------------------------------------------
+        </pre>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.min.js" integrity="sha512-UOuvdHxPTS8D5IoOYOwLGAN05jYYXKhxFOZDe/24o53eOOf9ylws0uPfV+gRj/k1z17C0KtC7Vkt+5H7BLQxOA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./XAxisScrolling.js"></script>
+
+    <script>
+        // Register plugin first
+        Scrollbar.use(XAxisScrollPlugin);
+
+        Scrollbar.initAll();
+    </script>
+</body>
+</html>
